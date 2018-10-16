@@ -7,12 +7,15 @@ class Person {
     }
 
     sayHello(){
-        console.log('Hello my name is'+ this.name);
+        console.log('Hello my name is '+ this.name);
     }
 
+    sayBye(){
+        console.log('Bye darling!')
+    }
 }
 
-var person = new Person('Adriana','Abad');
 
-console.log(person.sayHello);
+module.exports = Person;
+
 
